@@ -1,5 +1,6 @@
 from sympy import isprime
 
+# starting from layer 1 (0 indexed)
 corners = 5
 primes = 3
 n = 1

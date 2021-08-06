@@ -9,4 +9,4 @@ def key_gen():
                 yield i + j + k
 
 keys = key_gen()
-print(str(int.from_bytes(next(keys).encode(), "big")).decode())
+print(int.from_bytes(next(keys).encode(), "big").to_bytes(length, byteorder, signed=...))
